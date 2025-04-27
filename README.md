@@ -51,6 +51,8 @@ In a real project, your system would upload user activity, logs, or transactiona
 
 📸 Take Screenshot: After uploading the file, capture your AWS Console showing the file in S3.
 
+<img width="476" alt="awss3" src="https://github.com/user-attachments/assets/388f2ebf-b43a-4977-bb59-974388d241bd" />
+
 🛠 Troubleshooting Tips:
 -
 Ensure your AWS CLI is configured (aws configure).
@@ -81,6 +83,11 @@ Real-world job scenario:
 You set up clusters for analysts to run reports, dashboards, or machine learning preprocessing.
 
 📸 Take Screenshot: Cluster status showing "available" with endpoint details.
+
+<img width="501" alt="redclust" src="https://github.com/user-attachments/assets/a20f8432-504f-4ac4-ad04-5c4f0d068fed" />
+
+<img width="548" alt="redcluster" src="https://github.com/user-attachments/assets/98fce0c9-3760-497b-9472-facec4b85b29" />
+
 
 🛠 Troubleshooting Tips:
 -
@@ -113,6 +120,9 @@ Using IAM roles aligns with cloud security best practices — avoid hardcoded ac
 
 📸 Take Screenshot: IAM Role summary page showing permissions.
 
+<img width="709" alt="redrole" src="https://github.com/user-attachments/assets/139b49cf-e636-4b1f-88b1-fd5054a3c50e" />
+
+
 🛠 Troubleshooting Tips:
 -
 
@@ -121,12 +131,14 @@ Make sure you choose Redshift as trusted service.
 Confirm role is attached to the cluster after creation.
 
 # 4. Create a Table in Redshift (SQL Foundations)
+
 WHAT to do:
 Connect to Redshift using psql or any SQL client and create the table.
 
 HOW to do it:
 
 psql -h redshift-cluster-endpoint -p 5439 -U masteruser -d dev
+
 Then run:
 
 CREATE TABLE clickstream (
@@ -142,6 +154,9 @@ Real-world job scenario:
 Data Engineers must design schemas optimized for querying and reporting.
 
 📸 Take Screenshot: psql showing successful table creation.
+
+<img width="180" alt="sqlcre" src="https://github.com/user-attachments/assets/b516cf82-b297-4c7c-9535-0b13b65f0017" />
+
 
 🛠 Troubleshooting Tips:
 -
@@ -171,6 +186,9 @@ This is the fundamental step for batch pipelines bringing raw data into the ware
 
 📸 Take Screenshot: Successful COPY output showing loaded rows.
 
+<img width="426" alt="loaded" src="https://github.com/user-attachments/assets/4a52318b-0f0b-4e27-860c-6c3fb0199ca5" />
+
+
 🛠 Troubleshooting Tips:
 -
 Check role ARN and file path spelling.
@@ -198,6 +216,9 @@ Real-world job scenario:
 Analysts and BI tools query Redshift daily to create dashboards, reports, or train ML models.
 
 📸 Take Screenshot: Query output showing counts/grouping.
+
+<img width="419" alt="querries" src="https://github.com/user-attachments/assets/c24065a6-6835-4a56-a40d-cb30181097b7" />
+
 
 🛠 Troubleshooting Tips:
 -
