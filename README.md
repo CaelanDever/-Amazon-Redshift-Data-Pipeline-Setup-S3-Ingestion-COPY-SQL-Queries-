@@ -90,7 +90,6 @@ If stuck in "creating," check VPC settings and ensure subnet group exists.
 Make sure public accessibility is "Yes" if connecting from your laptop.
 
 # 3. Create IAM Role for Redshift S3 Access (Security Focus)
--
 
 WHAT to do:
 Create an IAM role allowing Redshift to read from S3.
