@@ -1,0 +1,1 @@
+# -Amazon-Redshift-Data-Pipeline-Setup-S3-Ingestion-COPY-SQL-Queries-
